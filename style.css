@@ -1,0 +1,79 @@
+.outfit-font {
+    font-family: "Outfit", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+  }
+html,body{
+    height: 100%;
+    width: 100%;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    background-color: #20293A;
+}
+#rectangle{
+    background-color: #4A5567;
+    height: 35vh;
+    width: 45vw;
+    border-radius: 1em;
+    color: #E3E8EF;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+h1{
+    text-align: center;
+}
+#buttons{
+    display: flex;
+    justify-content: center;
+    margin-top: 2em;    
+}
+.bttns{
+    background-color: #4A5567;
+    border: none;
+    height: 7vh;
+    width: 10vw;
+    border-radius: 1em; 
+    color: #E3E8EF;
+    font-size: 1.3rem;
+}
+#mixedMessage{
+    text-align: center;
+    font-size: xx-large ;
+}
+@media screen and (max-width:862px) and (min-width:625px){
+    #mixedMessage{
+        font-size: medium;
+    }
+    .bttns{
+        border-radius: 0.5em;
+        width: 12vw;
+    }
+}
+@media screen and (max-width:624px) and (min-width:425px){
+    #rectangle{
+        width: 60vw;
+    }
+    .bttns{
+        width: 25vw;
+    }
+    #mixedMessage{
+        font-size: medium;
+    }
+}
+@media screen and (max-width:424px){
+    h1,.bttns{
+        font-size: small;
+    }
+    #mixedMessage{
+        font-size: x-small;
+    }
+    .bttns{
+        width: 20vw;
+    }
+}

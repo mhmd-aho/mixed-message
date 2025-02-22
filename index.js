@@ -6,6 +6,8 @@ let randomMessage =()=>{
     const advice = ["find God","stay positive","dont over react"];
     let randomAdvice = advice[Math.floor(Math.random()*advice.length)];
     let message = `if your sign is ${randomSign} ${randomQoute}, ${randomAdvice}`;
-    console.log(message);
+    return message;
 }
-randomMessage()
+let paragraph = document.getElementById("mixedMessage");
+let button = document.getElementById("random");
+button.onclick = () => paragraph.innerHTML = `"${randomMessage()}"`;
