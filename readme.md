@@ -34,4 +34,4 @@ This project is a lightweight web application built with HTML, CSS, and JavaScri
 
 ## Live Demo
 
-https://mhmd-aho.github.io/mixed-message/
+[https://mhmd-aho.github.io/mixed-message/](https://mhmd-aho.github.io/mixed-message/)
